@@ -4,7 +4,7 @@
             <NuxtLink to="/">Nuxt Project</NuxtLink>
             <nav>
                 <ul>
-                    <li><NuxtLink to="/Home">Home</NuxtLink></li>
+                    <li><NuxtLink to="/">Home</NuxtLink></li>
                     <li><NuxtLink to="/about">About</NuxtLink></li>
                     <li><NuxtLink to="/products">Products</NuxtLink></li>
                 </ul>
