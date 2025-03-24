@@ -1,5 +1,5 @@
 <template>
-    <h2>Home</h2>
+    <h2>Products</h2>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu lectus efficitur, fermentum turpis fermentum,
         dapibus elit. Curabitur ac justo dui. Nulla nec ultrices nibh, sed tincidunt metus. Nam suscipit eget leo at consequat.
@@ -15,7 +15,9 @@
 </template>
 
 <script setup lang="ts">
-
+    definePageMeta({
+        layout: 'products'
+    });
 </script>
 
 <style scoped>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header>
+<!--        <header>
             <NuxtLink to="/">Nuxt Project</NuxtLink>
             <nav>
                 <ul>
@@ -9,7 +9,7 @@
                     <li><NuxtLink to="/products">Products</NuxtLink></li>
                 </ul>
             </nav>
-        </header>
+        </header>-->
 
         <h2>Home</h2>
         <p>
