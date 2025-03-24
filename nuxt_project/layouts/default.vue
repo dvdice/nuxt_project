@@ -1,9 +1,9 @@
 <template>
     <div>
-        <header>
-            <NuxtLink to="/">Nuxt Project</NuxtLink>
+        <header class="shadow-2xl bg-white rounded-full flex gap-10 h-20 justify-between p-6">
+            <NuxtLink to="/" class="font-bold">Nuxt Project</NuxtLink>
             <nav>
-                <ul>
+                <ul class="flex gap-10">
                     <li>
                         <NuxtLink to="/">Home</NuxtLink>
                     </li>
@@ -11,12 +11,12 @@
                         <NuxtLink to="/about">About</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/products">Products</NuxtLink>
+                        <NuxtLink to="/products" class="btn">Products</NuxtLink>
                     </li>
                 </ul>
             </nav>
         </header>
-
+    <slot/>
     </div>
 </template>
 
