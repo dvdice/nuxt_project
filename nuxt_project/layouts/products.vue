@@ -11,7 +11,7 @@
 
         <footer>
             <nav>
-                <ul>
+                <ul class="flex gap-5">
                     <li>
                         <NuxtLink to="/">Home</NuxtLink>
                     </li>

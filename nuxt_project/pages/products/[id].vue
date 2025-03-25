@@ -1,14 +1,6 @@
 <template>
     <h2>Product</h2>
-    <p>
-        Product details for {{ product.title }}
-    </p>
-    <p>
-        {{ error }}
-    </p>
-    <p>
-        {{ status }}
-    </p>
+    <product-details :product="product"/>
 </template>
 
 <script setup lang="ts">
