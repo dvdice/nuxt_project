@@ -10,4 +10,17 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    head: {
+      title: 'My Project',
+      meta: [
+        { name: "description", content: 'Learn Nuxt 3' }
+      ],
+      link: [
+        {
+          rel: "stylesheet", href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+        }
+      ]
+    }
+  }
 })

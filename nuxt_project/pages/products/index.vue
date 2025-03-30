@@ -17,6 +17,10 @@
     });
 
     const {data: products} = await useFetch('https://fakestoreapi.com/products');
+
+    useHead({
+        title: 'Список товаров'
+    });
 </script>
 
 <style scoped>

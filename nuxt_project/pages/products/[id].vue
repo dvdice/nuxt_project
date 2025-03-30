@@ -1,4 +1,9 @@
 <template>
+    <Head>
+        <Title>{{id}}</Title>
+        <Meta name="description" :content="product.description"/>
+    </Head>
+
     <h2>Product</h2>
     <product-details :product="product"/>
 </template>
