@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h1>{{data.message}}</h1>
         <h2>Home</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu lectus efficitur, fermentum turpis fermentum,
@@ -17,7 +18,10 @@
 </template>
 
 <script setup lang="ts">
-
+    const { data } = await useFetch("/api/hello?name=damir", {
+        method: 'post',
+        body: { age: 22 }
+    })
 </script>
 
 <style scoped>
