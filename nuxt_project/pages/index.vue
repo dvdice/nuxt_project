@@ -26,12 +26,7 @@
     const user = useCookie('user');
 
     definePageMeta({
-        middleware: function (to, from) {
-            const user = useCookie('user');
-            if (!user.value) {
-                return navigateTo('/login')
-            }
-        }
+        middleware: ['auth']
     })
 </script>
 
