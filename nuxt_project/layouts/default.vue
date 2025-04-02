@@ -13,7 +13,9 @@
                     <li>
                         <NuxtLink to="/products">Products</NuxtLink>
                     </li>
-
+                    <li>
+                        <NuxtLink to="/admin">Admin</NuxtLink>
+                    </li>
                     <li>
                         <NuxtLink to="/login" class="btn">Log in</NuxtLink>
                     </li>
