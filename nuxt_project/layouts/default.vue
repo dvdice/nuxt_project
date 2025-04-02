@@ -11,7 +11,14 @@
                         <NuxtLink to="/about">About</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/products" class="btn">Products</NuxtLink>
+                        <NuxtLink to="/products">Products</NuxtLink>
+                    </li>
+
+                    <li>
+                        <NuxtLink to="/login" class="btn">Log in</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/logout" class="btn">Logout</NuxtLink>
                     </li>
                 </ul>
             </nav>

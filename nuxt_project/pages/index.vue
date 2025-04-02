@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>{{data.message}}</h1>
+        <h1>{{user ? user.username : 'No account'}}</h1>
         <h2>Home</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu lectus efficitur, fermentum turpis fermentum,
@@ -21,6 +22,16 @@
     const { data } = await useFetch("/api/hello?name=damir", {
         method: 'post',
         body: { age: 22 }
+    });
+    const user = useCookie('user');
+
+    definePageMeta({
+        middleware: function (to, from) {
+            const user = useCookie('user');
+            if (!user.value) {
+                return navigateTo('/login')
+            }
+        }
     })
 </script>
 
