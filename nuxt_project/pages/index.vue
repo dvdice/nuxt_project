@@ -25,9 +25,6 @@
     });
     const user = useCookie('user');
 
-    definePageMeta({
-        middleware: ['auth']
-    })
 </script>
 
 <style scoped>

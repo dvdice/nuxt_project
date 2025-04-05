@@ -8,6 +8,6 @@
 <script setup>
 definePageMeta({
     layout: 'products',
-    middleware: ['auth', 'admin']
+    middleware: ['admin']
 });
 </script>

@@ -37,4 +37,7 @@
 .router-link-exact-active {
     color: #29ba29;
 }
+a {
+    cursor: pointer;
+}
 </style>
